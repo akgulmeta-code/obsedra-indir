@@ -17,8 +17,10 @@ Bu depo yalnız **kurulum dosyalarını** taşır; kaynak kod burada değildir.
 xattr -dr com.apple.quarantine /Applications/OBSEDRA.app
 ```
 
+4. Uygulamada **Bağlantılar**'ı aç. Claude Code kurulu değilse **Claude Code'u kur**'a bas, sonra **Bağlan** ile tarayıcıda Claude hesabınla giriş yap.
+
 ## Gerekenler
-- macOS 11 ya da üstü
-- [Claude Code](https://docs.claude.com/en/docs/claude-code) kurulu ve giriş yapılmış olmalı; ajanlar onunla çalışır.
+- macOS 13 ya da üstü
+- Claude Pro ya da Max aboneliği. Ajanlar [Claude Code](https://code.claude.com/docs/en/setup) ile çalışır; uygulama onu kendisi kurabilir.
 
 Uygulama boş başlar: projeni, bölgelerini ve ajanlarını sen kurarsın. Verilerin yalnız kendi bilgisayarında, `~/.obsedra` altında durur; ofis ağa açılmaz (yalnız `127.0.0.1`).
